@@ -48,7 +48,8 @@ No additional setup or dependencies required.
 ## 🚀 Live Demo
 
 Try **ERRORLENS** live at:  
-🔗  [https://buildsbynandini.github.io/errorlens/](https://buildsbynandini.github.io/errorlens/)
+
+🔗  [View Live](https://buildsbynandini.github.io/errorlens/)
 
 ---
 
