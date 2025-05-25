@@ -28,7 +28,7 @@ Switch between dark and light modes for comfortable coding and better code visib
 
 ---
 
-## Installation
+##  🔧 Installation
 
 To run **ERRORLENS** locally:
 
@@ -45,14 +45,14 @@ No additional setup or dependencies required.
 
 ---
 
-## Live Demo
+## 🚀 Live Demo
 
 Try **ERRORLENS** live at:  
 🔗  [https://buildsbynandini.github.io/errorlens/](https://buildsbynandini.github.io/errorlens/)
 
 ---
 
-## How to Use
+## 🧑‍💻 How to Use
 
 1. Write or paste your JavaScript code in the editor.
 2. Click the **Run** button to execute the code safely. 
@@ -62,7 +62,7 @@ Try **ERRORLENS** live at:
 
 ---
 
-## Contact
+## 📬 Contact
 
 - GitHub: [buildsbynandini](https://github.com/buildsbynandini)  
 - Email: [nandinithedev@gmail.com](mailto:nandinithedev@gmail.com)  
@@ -70,5 +70,5 @@ Try **ERRORLENS** live at:
 ---
 
 © 2025 Nandini Chockalingam.
-Built with curiosity, code, and a passion for debugging. 🚀
+Built with curiosity, code, and a passion for debugging. 🐞
 Thanks for stopping by!
