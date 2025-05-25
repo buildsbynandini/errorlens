@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo.png" type="image/x-icon" />
+    <title>ERRORLENS - JS Debugger</title>
+
+
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- prism -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
+
+
+    <!-- Prism Line Numbers Plugin -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css" />
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+
+</head>
+
+<body class="light-mode">
+
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="nav-con">
+            <div class="logo">
+                <img src="./logo.png" alt="">
+            </div>
+            <div class="nav-title">
+                <h1>ERROR<span>LENS</span></h1>
+                <h3>Deep scan. Sharp fix</h3>
+            </div>
+        </div>
+
+    </div>
+    <span class="toggle-icon" onclick="toggleMode()" title="Switch Theme">🌙</span>
+
+    <!--main content  -->
+    <div class="main-container">
+        <textarea id="code" placeholder="Type your JavaScript code..."></textarea>
+        <div class="highlight-box">
+            <h3>Code Preview</h3>
+            <pre class="line-numbers"><code id="highlightedCode" class="language-javascript"></code></pre>
+        </div>
+    </div>
+    <div class="button-container">
+        <button onclick="runCode()" title="Shortcut: F10">▶️ Run</button>
+        <button onclick="clearOutput()">Clear Output</button>
+    </div>
+    <div class="output-container">
+        <div id="output"></div>
+        <button onclick="copyOutput()" class="copy-btn" title="Copy Output">
+            <i class="fa-solid fa-clipboard"></i>
+        </button>
+
+    </div>
+    <div id="copy-alert"> Copied to clipboard!</div>
+
+    <!-- footer -->
+    <div id="footer" class="white-text">
+        <h4>
+            Made with ❤️ by <strong>Nandini Chockalingam</strong> <br> <br>
+            <a href="https://github.com/buildsbynandini/errorlens.git" target="_blank">
+                <i class="fab fa-github"></i> Explore on GitHub
+            </a>
+        </h4>
+        <p>
+            © <span id="year"></span> ERRORLENS • All code runs safely in-browser using Web Workers 🔒
+        </p>
+    </div>
+
+
+    <!-- script link -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
