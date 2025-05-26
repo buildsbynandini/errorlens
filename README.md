@@ -71,5 +71,7 @@ Try **ERRORLENS** live at:
 ---
 
 © 2025 Nandini Chockalingam.
+
 Built with curiosity, code, and a passion for debugging. 🐞
+
 Thanks for stopping by!
